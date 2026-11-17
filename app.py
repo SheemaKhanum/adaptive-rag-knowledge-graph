@@ -135,6 +135,7 @@ if user_query:
             st.session_state.current_corpus,
             st.session_state.retriever,
             st.session_state.graph,
+            route=assigned_route,
         )
 
         elapsed_time = time.time() - start_time
